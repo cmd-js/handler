@@ -1,7 +1,7 @@
 {
   "name": "cmd-use",
   "version": "0.1.0",
-  "description": "Alias commands with cmd ",
+  "description": "Execute functions with cmd",
   "main": "index.js",
   "scripts": {
     "test": "node test.js | tap-spec"
