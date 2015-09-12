@@ -1,0 +1,32 @@
+{
+  "name": "cmd-use",
+  "version": "0.1.0",
+  "description": "Alias commands with cmd ",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js | tap-spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cmd-js/use.git"
+  },
+  "keywords": [
+    "cmd",
+    "cli",
+    "use",
+    "alias"
+  ],
+  "author": "Scott Corgan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cmd-js/use/issues"
+  },
+  "homepage": "https://github.com/cmd-js/use#readme",
+  "devDependencies": {
+    "tap-spec": "^4.1.0",
+    "tape": "^4.2.0"
+  },
+  "dependencies": {
+    "as-array": "^2.0.0"
+  }
+}
