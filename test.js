@@ -4,7 +4,7 @@ var handler = require('./')
 test('handler()', function (t) {
 
   t.deepEqual(handler(), {
-    type: 'function',
+    type: 'handler',
     value: []
   }, 'no inputs')
 
@@ -12,7 +12,7 @@ test('handler()', function (t) {
   var fn2 = function () {}
 
   t.deepEqual(handler(fn1, fn2), {
-    type: 'function',
+    type: 'handler',
     value: [fn1, fn2]
   }, 'multiple inputs')
 
