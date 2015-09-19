@@ -1,6 +1,6 @@
 var asArray = require('as-array')
 
-module.exports = function use () {
+module.exports = function handler () {
 
   return {
     type: 'function',

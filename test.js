@@ -1,9 +1,9 @@
 var test = require('tape')
-var use = require('./')
+var handler = require('./')
 
-test('use()', function (t) {
+test('handler()', function (t) {
 
-  t.deepEqual(use(), {
+  t.deepEqual(handler(), {
     type: 'function',
     value: []
   }, 'no inputs')
@@ -11,7 +11,7 @@ test('use()', function (t) {
   var fn1 = function () {}
   var fn2 = function () {}
 
-  t.deepEqual(use(fn1, fn2), {
+  t.deepEqual(handler(fn1, fn2), {
     type: 'function',
     value: [fn1, fn2]
   }, 'multiple inputs')

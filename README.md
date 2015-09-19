@@ -1,2 +1,3 @@
-# use
-Execute functions with cmd
+# handler
+
+Handle executing functions with cmd
